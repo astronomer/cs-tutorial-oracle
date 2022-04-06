@@ -1,0 +1,3 @@
+CREATE SCHEMA AUTHORIZATION system
+    CREATE TABLE product
+      (product_id INTEGER  PRIMARY KEY, color VARCHAR2(10), name VARCHAR(20))
