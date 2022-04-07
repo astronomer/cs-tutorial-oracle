@@ -1,1 +1,2 @@
 apache-airflow-providers-oracle
+pendulum==2.1.2
