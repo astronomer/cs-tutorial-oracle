@@ -12,7 +12,7 @@ with DAG(
     start_date=datetime(2019, 1, 1),
     max_active_runs=3,
     schedule_interval=None,
-    default_args=my_oracle_conn,
+    default_args={"oracle_conn_id": my_oracle_conn},
     catchup=False,
     template_searchpath="/usr/local/airflow/include/sql",
 ) as dag:
