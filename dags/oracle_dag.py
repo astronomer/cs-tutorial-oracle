@@ -1,3 +1,9 @@
+"""
+Example that shows how to load data into Oracle and run stored procedures from it.
+
+Relevant SQL can be found in the `include` folder. 
+"""
+
 from airflow import DAG
 from airflow.providers.oracle.operators.oracle import (
     OracleOperator,
@@ -14,6 +20,7 @@ with DAG(
     schedule_interval=None,
     default_args={"oracle_conn_id": my_oracle_conn},
     catchup=False,
+    doc_md=__doc__,
     template_searchpath="/usr/local/airflow/include/sql",
 ) as dag:
 
