@@ -1,4 +1,4 @@
-FROM quay.io/astronomer/ap-airflow:2.2.4-onbuild
+FROM quay.io/astronomer/astro-runtime:6.0.1
 USER root
 RUN apt-get -y update \
      && apt-get -y autoremove \

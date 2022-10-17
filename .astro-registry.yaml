@@ -1,0 +1,9 @@
+# These categories will be applied to all DAGs in the repo.
+categories:
+  - Airflow Fundamentals
+  - Alerts/Notifications
+  - Databases
+  - ETL/ELT
+# List of DAGs that should be published to the Astronomer Registry.
+dags:
+  - path: dags/oracle_dag.py
