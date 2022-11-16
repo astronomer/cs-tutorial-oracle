@@ -1,5 +1,8 @@
 """
+### Stored Procedures with Oracle
+
 Example that shows how to load data into Oracle and run stored procedures from it.
+Uses the prebuilt Oracle Operator.
 
 Relevant SQL can be found in the `include` folder. 
 """
